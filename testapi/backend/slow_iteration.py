@@ -4,4 +4,4 @@ import time
 
 for x in DailyPerformance.objects.all()[:50]:
     print(x)
-    time.sleep(3)
+    time.sleep(60)
